@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="signincss.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    
+    <div class="container">
+        <h1>SignIn</h1>
+        <form action="/submit_signin" method="post">
+            <input type="text" name="username" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">SignIn</button>
+            <p>Don't have an account?</p>
+            <button type="sub" onclick="window.location.href='signup.html'">Create Account</button>
+        </form>
+       
+    </div>
+    
+</body>
+</html>
